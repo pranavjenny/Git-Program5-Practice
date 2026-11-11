@@ -1,0 +1,29 @@
+Function concept example
+
+
+#include<stdio.h>
+int add();
+int sub();
+
+void main()
+{
+    add();
+    sub();
+
+}
+int add()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    int sum=a+b;
+    printf("Sum=%d",sum);
+
+}
+int sub()
+{
+     int x,y;
+    scanf("%d%d",&x,&y);
+    int diff=x-y;
+    printf("Difference=%d",diff);
+
+}
